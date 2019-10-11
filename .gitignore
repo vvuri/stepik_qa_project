@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*$py.class
+/selenium_env
+/.vscode
+/.pytest_cache
