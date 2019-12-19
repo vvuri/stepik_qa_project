@@ -7,3 +7,7 @@
 - это абстрактный объект, который содержит в себе методы для работы с конкретной веб-страницей. 
 - бывают двух типов: сделать что-то и проверить что-то.
 
+[обработка исключение](https://pythonworld.ru/tipy-dannyx-v-python/isklyucheniya-v-python-konstrukciya-try-except-dlya-obrabotki-isklyuchenij.html)
+
+символ * в (*MainPageLocators.LOGIN_LINK) указывает на то, что мы передали пару значений, и этот кортеж нужно распаковать
+
