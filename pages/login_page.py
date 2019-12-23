@@ -8,8 +8,8 @@ class LoginPage(BasePage):
         self.should_be_register_form()
 
     def should_be_login_url(self):
-        # реализуйте проверку на корректный url адрес
-        link = "http://selenium1py.pythonanywhere.com/ru/accounts/login/"
+        # реализуйте проверку на корректный url адрес  - only language = en
+        link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
         assert self.browser.current_url == link, "Login link url not correct"
 
     def should_be_login_form(self):
