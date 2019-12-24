@@ -11,6 +11,6 @@ class ProductPageLocators():
     ADD_TO_BASKET = (By.CSS_SELECTOR, ".btn-add-to-basket")
     NAME_PRODUCT_BOOK = (By.CSS_SELECTOR, ".product_main h1")
     NAME_PRODUCT_BOOK_IN_BASKET = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
-    SUCCESS_MESSAGE = None
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
     DISAPPEARED_MESSAGE = None
 
