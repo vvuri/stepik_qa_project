@@ -10,3 +10,6 @@ $ pytest -v --tb=line --language=en test_main_page.py -k "guest_can_go_to_login_
 ```
 
 Для отладки и вывода сообщений через print - ключик -s
+```bash
+$ pytest -s test_foo.py
+```
