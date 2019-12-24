@@ -13,6 +13,8 @@ def browser(request):
     try:
         options = Options()
         options.add_experimental_option('prefs', {'intl.accept_languages': language})
+        # options.add_argument('headless')              # headless mode
+        # options.add_argument('window-size=1920x935')  # headles mode size
         browser = webdriver.Chrome(options=options)
     except:
         raise pytest.UsageError("language do not correct")
