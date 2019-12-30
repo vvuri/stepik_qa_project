@@ -6,7 +6,7 @@ class BasePageLocators():
     BASKET_LINK = (By.CSS_SELECTOR, ".btn .btn-default")
 
 class BasketPageLocators():
-    EMPTY_BASKET = (By.CSS_SELECTOR, "#basket_formset")
+    EMPTY_BASKET = (By.CSS_SELECTOR, "#content_inner") # "#basket_formset")
 
 class MainPageLocators():
     pass
